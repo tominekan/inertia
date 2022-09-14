@@ -1,0 +1,22 @@
+.mobile_navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#inertia_logo {
+    margin-left: 10px;
+}
+
+#hamburger_menu:active {
+    outline: 10px;
+}
+
+.invisible_btn {
+    margin-right: 20px;
+    background: none;
+    border: none;
+}
+
