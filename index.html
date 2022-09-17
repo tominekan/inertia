@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inertia</title>
@@ -14,12 +15,16 @@
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
+    <!-- Load nice js scripts -->
+    <script src="index.js"></script>
     <div class="mobile_navbar">
         <img src="assets/Inertia_Logo.jpg" alt="Inertia Logo" id="inertia_logo">
-        <button class="invisible_btn" type="button">
+
+        <button class="invisible_btn" type="button" onclick="toggleMenu()">
             <img src="assets/HamburgerMenu.png" alt="Hamburger Menu" id="hamburger_menu">
         </button>
-        <div class="mobile_menu">
+
+        <div id="mobile_menu">
             <div class="mobile_text">
                 <a href="">Home</a>
                 <a href="">About</a>

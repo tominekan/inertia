@@ -5,3 +5,8 @@
 /* Navbar UI */
 @import url(navbar/mobile.css) (max-width: 650px);
 @import url(navbar/desktop.css) (min-width: 650px);
+
+/* Apply Styling to Everything*/
+body {
+    font-family: "Inter", sans-serif;
+}
