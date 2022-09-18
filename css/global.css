@@ -7,6 +7,7 @@
 @import url(navbar/desktop.css) (min-width: 650px);
 
 /* Apply Styling to Everything*/
+/* Font weights: 300;400;500;600;700;800;900 */
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif !important;
 }
