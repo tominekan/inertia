@@ -1,1 +1,54 @@
 @import url(../colors.css);
+
+#mobile-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-intro-text p {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--color-black);
+}
+
+.mobile-intro-text {
+    display: block;
+    width: 75vw;
+    height: max-content;
+    padding-bottom: 10vh;
+}
+
+.mobile-image-resizer {
+    width: 95vw;
+}
+
+#mobile-hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mobile-colored-text {
+    background-image: linear-gradient(to right, var(--color-black), var(--color-green));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mobile-cta {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-family: "Inter", sans-serif !important;
+    background-color: var(--color-green);
+    border: none;
+    border-radius: 7.5px;
+}
+
+#mobile-cta:hover {
+    box-shadow: 2px 5px 10px var(--color-green-shadows);
+    transition: all 300ms;
+}

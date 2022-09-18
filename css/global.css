@@ -6,8 +6,11 @@
 @import url(navbar/mobile.css) (max-width: 650px);
 @import url(navbar/desktop.css) (min-width: 650px);
 
+/* Intro UI */
+@import url(intro/mobile.css) (max-width: 650px);
+@import url(intro/desktop.css) (min-width: 650px);
+
 /* Apply Styling to Everything*/
-/* Font weights: 300;400;500;600;700;800;900 */
 body {
-    font-family: "Inter", sans-serif !important;
+    font-family: "Inter", sans-serif !important;  /* Font weights: 300;400;500;600;700;800;900 */
 }
