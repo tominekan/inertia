@@ -18,6 +18,10 @@
 @import url(social/mobile.css) (max-width: 650px);
 @import url(social/desktop.css) (min-width: 650px);
 
+/* Pricing UI */
+@import url(pricing/mobile.css) (max-width: 650px);
+@import url(pricing/desktop.css) (min-width: 650px);
+
 /* Apply Styling to Everything*/
 body {
     font-family: "Inter", sans-serif !important;  /* Font weights: 300;400;500;600;700;800;900 */
