@@ -1,0 +1,27 @@
+@import url(../colors.css);
+
+#desktop-social-media {
+    display: none;
+}
+
+#mobile-social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marketing-title {
+    text-align: center;
+    width: 90vw;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-bottom: 5vh;
+}
+
+.marketing-text {
+    margin-bottom: 10vh;
+    color: var(--color-black);
+    text-align: center;
+    width: 80vw;
+}

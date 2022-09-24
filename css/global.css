@@ -14,6 +14,9 @@
 @import url(offer/mobile.css) (max-width: 650px);
 @import url(offer/desktop.css) (min-width: 650px);
 
+/* Social Media UI */
+@import url(social/mobile.css) (max-width: 650px);
+@import url(social/desktop.css) (min-width: 650px);
 
 /* Apply Styling to Everything*/
 body {

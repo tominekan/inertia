@@ -9,7 +9,7 @@
 }
 
 .offer-section {
-    height: 30vh;
+    height: clamp(250px, 30vh, 500px);
     width: 75vw;
     background-color: white;
     display: flex;

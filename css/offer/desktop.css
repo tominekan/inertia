@@ -43,22 +43,22 @@
 }
 
 .smol-part {
-    width: 30%;
-    transition: all 300ms;
-}
-
-.smol-part:hover {
-    width: 32%;
-    transition: all 300ms;
-}
-
-.big-part {
     width: 40%;
     transition: all 300ms;
 }
 
-.big-part:hover {
+.smol-part:hover {
     width: 42%;
+    transition: all 300ms;
+}
+
+.big-part {
+    width: 50%;
+    transition: all 300ms;
+}
+
+.big-part:hover {
+    width: 52%;
     transition: all 300ms;
 }
 
