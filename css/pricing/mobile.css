@@ -1,0 +1,38 @@
+@import url(../colors.css);
+
+
+#desktop-competitive {
+    display: none;
+}
+
+#mobile-competitive {
+    height: clamp(600px, 75vh, 1000px);
+    margin-top: 10vh;
+    background-color: var(--color-green);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.competitive-title {
+    margin-top: 3vh;
+    text-align: center;
+    width: 90vw;
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.competitive-text {
+    margin-bottom: 10vh;
+    color: white;
+    text-align: center;
+    width: 80vw;
+}
+
+#mobile-competitive a {
+    margin-bottom: 1vh;
+}

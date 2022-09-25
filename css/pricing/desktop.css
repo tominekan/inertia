@@ -1,0 +1,44 @@
+@import url(../colors.css);
+
+#mobile-competitive {
+    display: none;
+}
+
+#desktop-competitive {
+    margin-top: 7.5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.competitive-title {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 5vh;
+}
+
+.competitive-content {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.competitive-text {
+    text-align: center;
+    width: clamp(100px, 35vw, 450px);;
+}
+
+.desktop-c {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    width: 80vw;
+    background-color: var(--color-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}

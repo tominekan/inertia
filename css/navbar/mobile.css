@@ -1,11 +1,13 @@
 @import url(../colors.css);
 
 .mobile-navbar {
+    position: sticky;
+    top: 0px;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
 }
 
 #mobile-inertia-logo {
