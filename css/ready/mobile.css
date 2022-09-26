@@ -1,0 +1,45 @@
+@import url(../colors.css);
+
+#desktop-ready {
+    display: none;
+}
+
+.ready-button {
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-family: "Inter", sans-serif !important;
+    background-color: var(--color-green);
+    border: none;
+    border-radius: 7.5px;
+}
+
+.ready-button:hover {
+    box-shadow: 2px 5px 10px var(--color-green-shadows);
+    transition: all 300ms;
+}
+
+.ready-question {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.ready-cta {
+    margin-bottom: 30px;
+}
+
+.ready-content {
+    color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+}
+
+#mobile-ready {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
