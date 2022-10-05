@@ -26,6 +26,10 @@
 @import url(ready/mobile.css) (max-width: 650px);
 @import url(ready/desktop.css) (min-width: 650px);
 
+/* Footer UI */
+@import url(footer/mobile.css) (max-width: 650px);
+@import url(footer/desktop.css) (min-width: 650px);
+
 /* Apply Styling to Everything */
 body {
     font-family: "Inter", sans-serif !important;  /* Font weights: 300;400;500;600;700;800;900 */
