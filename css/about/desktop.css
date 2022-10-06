@@ -1,0 +1,61 @@
+@import url(../colors.css);
+
+#about {
+    margin-top: 7.5vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teams {
+    margin-top: 5vh;
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+.about-descriptor {
+    text-align: center;
+    align-self: center;
+}
+
+.member-image {
+    border-radius: 5px;
+}
+
+.italics {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.member-name {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: var(--color-green);
+    max-width: 85vw;
+    font-weight: 600;
+}
+
+.meet-team {
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--color-black) !important;
+    margin-bottom: 2.5vh;
+}
+
+.about-descriptor p {
+    width: 50vw;
+}
+
+.member-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-role {
+    margin-top: 5px;
+    text-align: center;
+    width: 200px;
+}
