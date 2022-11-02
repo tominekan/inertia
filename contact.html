@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/about.css">
-    <title>About Us</title>
+    <title>Contact Us</title>
 </head>
 <body class="tonka">
     <div class="mobile-navbar">
@@ -43,40 +43,72 @@
         <button id="desktop-cta">Get Started</button>
     </div>
 
-    <div id="about">
-        <div class="about-descriptor">
-            <p class="meet-team">Meet our <span class="italics">inspired</span> team of <span class="italics">creators</span> and analysts</p>
-            <p class="team-describe">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla porttitor tellus, a condimentum ipsum interdum nec. </p>
+    <div id="contact">
+        <div class="contact-intro">
+            <p class="contact-title">Contact Us</p>
+            <p class="contact-context">Feel free to get in touch!</p>
         </div>
-        <div class="teams">
-            <div class="member-section">
-                <div class="member-image-container">
-                    <img src="assets/boiTonka.png" alt="Adrian Panezic" class="member-image">
+
+        <div class="contact-content">
+            <div class="contact-links">
+                <div class="contact-links-text">
+                    <p class="large-text">Contact Information</p>
+                    <p class="contact-time">Fill out the form and our team will get back to you shortly.</p>
                 </div>
 
-                <p class="member-name">Adrian Panezic</p>
-                <p class="member-role">Founder, Social Media Coordinator, and Head of Operations</p>
-            </div>
-
-            <div class="member-section">
-                <div class="member-image-container">
-                    <img src="assets/boiTonka.png" alt="Tomi Adenekan" class="member-image">
+                <div class="contact-info-container">
+                    <div class="contact-info">
+                        <img src="assets/phone-icon.svg" alt="Phone" class="info-icon">
+                        <p>650 420 6969</p class="info-icon">
+                    </div>
+                    <div class="contact-info">
+                        <img src="assets/mail-icon.svg" alt="Mail" class="info-icon">
+                        <p>contact@inertia.com</p>
+                    </div>
                 </div>
 
-                <p class="member-name">Tomi Adenekan</p>
-                <p class="member-role">Web Developer</p>
+                <div class="contact-icons">
+                    <a href="https://facebook.com" class="actual-link"><img src="assets/facebook.svg" alt="Facebook" class="contact-icon"></a>
+                    <a href="https://twitter.com" class="actual-link"><img src="assets/twitter.svg" alt="Twitter" class="contact-icon"></a>
+                    <a href="https://instagram.com" class="actual-link"><img src="assets/instagram.svg" alt="Instagram" class="contact-icon"></a>
+                    <a href="https://linkedin.com" class="actual-link"><img src="assets/linkedin.svg" alt="Linkedin" class="contact-icon"></a>
+                </div>
             </div>
+            <div class="contact-form">
+                <div class="field-group">
+                    <div class="text-field">
+                        <input type="text" name="First Name" id="first-name" class="text-item">
+                        <p class="input-prompt">First Name</p>
+                    </div>
 
-
-            <div class="member-section">
-                <div class="member-image-container">
-                    <img src="assets/boiTonka.png" alt="Boi Tonka" class="member-image">
+                    <div class="text-field">
+                        <input type="text" name="Last Name" id="last-name" class="text-item">
+                        <p class="input-prompt">Last Name</p>
+                    </div>
                 </div>
 
-                <p class="member-name">Irena Pati</p>
-                <p class="member-role">Graphic Designer</p>
+                <div class="field-group">
+                    <div class="text-field">
+                        <input type="email" name="Email" id="email" class="text-item" class="text-item">
+                        <p class="input-prompt">Email</p>
+                    </div>
+
+                    <div class="text-field">
+                        <input type="tel" name="Phone Number" id="phone-number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" class="text-item">
+                        <p class="input-prompt">Phone Number</p>
+                    </div>
+                </div>
+
+                <div class="text-field">
+                    <textarea name="message" class="big-input" cols="30" rows="10" placeholder="Write your message"></textarea>
+                    <p class="input-prompt">Message</p>
+                </div>
+
+                <div class="button-container">
+                    <button class="send-button">Send Message</button>
+                </div>
             </div>
-        </div>       
+        </div>
     </div>
 
     <div id="mobile-footer">

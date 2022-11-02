@@ -1,0 +1,101 @@
+@import url(../colors.css);
+
+input[type="text"] {
+    height: 25px;
+    width: 250px;
+    border-bottom: 2.5px solid var(--color-black);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: var(--color-black);
+    transition: all 200ms;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2.5px solid var(--color-green);
+    transition: all 200ms;
+}
+
+input[type="email"] {
+    height: 25px;
+    width: 250px;
+    border-bottom: 2.5px solid var(--color-black);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: var(--color-black);
+    transition: all 200ms;
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border-bottom: 2.5px solid var(--color-green);
+    transition: all 200ms;
+}
+
+input[type="tel"] {
+    height: 25px;
+    width: 250px;
+    border-bottom: 2.5px solid var(--color-black);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: var(--color-black);
+    transition: all 200ms;
+}
+
+input[type="tel"]:focus {
+    outline: none;
+    border-bottom: 2.5px solid var(--color-green);
+    transition: all 200ms;
+}
+
+.input-prompt {
+    color: var(--color-black);
+    font-size: 0.75em;
+    transition: all 200ms;
+}
+
+input[type="text"]:focus ~ .input-prompt {
+    color: var(--color-green);
+    transition: all 200ms;
+}
+
+input[type="email"]:focus ~ .input-prompt {
+    color: var(--color-green);
+    transition: all 200ms;
+}
+
+input[type="tel"]:focus ~ .input-prompt {
+    color: var(--color-green);
+    transition: all 200ms;
+}
+
+.text-field {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-intro {
+    color: var(--color-black);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    margin-bottom: 5px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.contact-context {
+    font-weight: 500;
+}
+
