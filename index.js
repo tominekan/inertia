@@ -33,7 +33,7 @@ function hideMenu() {
 }
 
 // Make sure that all inputs are filled out 
-var submitBtn = document.getElementById("send-button");
+var submitBtn = document.getElementById("submit-btn");
 var firstNameField = document.getElementById("first-name");
 var lastNameField = document.getElementById("last-name");
 var emailField = document.getElementById("email");
@@ -44,7 +44,7 @@ var formInput = document.getElementsByClassName("contact-form")[0]
 // Make sure that everything is filled out properly
 // Block submitting if it's not okay
 function validateFormInputs() {
-    if (firstNameField.value.trim() && emailField.value.trim() && messageField.value.trim() && phoneField.value.trim() && lastNameField.value.trin()) {
+    if (firstNameField.value.trim() && emailField.value.trim() && messageField.value.trim() && phoneField.value.trim() && lastNameField.value.trim()) {
         submitBtn.removeAttribute("disabled");
         return true;
     } else {

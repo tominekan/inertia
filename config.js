@@ -1,0 +1,1 @@
+var mailData; export default mailData = { 'access_token': 'bekgf5t95omyqd34grnu679n' }
