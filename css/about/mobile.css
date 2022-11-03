@@ -43,10 +43,16 @@
 }
 
 .member-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 5vh;
 }
 
 .member-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 15px;
 }
 
