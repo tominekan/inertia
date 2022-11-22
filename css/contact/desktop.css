@@ -108,8 +108,8 @@
 }
 
 .contact-links {
-    width: clamp(1px, 40%, 450px);
-    height: 92.5%;
+    width: clamp(1px, 40%, 50%);
+    height: 95%;
     background-color: var(--color-green);
     color: white;
     border-radius: 15px;
