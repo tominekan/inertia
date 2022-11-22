@@ -58,4 +58,6 @@
 
 .member-image {
     border-radius: 5px;
+    width:25em;
+    height:25em;
 }
