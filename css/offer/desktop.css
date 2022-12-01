@@ -16,10 +16,11 @@
 }
 
 .hidden {
-    opacity: 0;
+    /* opacity: 0; */
+    border: 5px solid blue;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: all 1s; 
 }
 
 @media(prefers-reduced-motion){
@@ -30,6 +31,7 @@
 
 .show {
     opacity: 1;
+    border: 5px solid #006aff;
     filter: blur(0px);
     transform: translateX(0%);
 }
