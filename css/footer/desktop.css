@@ -7,13 +7,14 @@
 #desktop-footer {
     margin-top: 10vh;
     color: var(--color-black) !important;
+    padding-bottom: 20px;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    width: 100vw;
+    width: 100%;
     flex-direction: row;
 }
 
