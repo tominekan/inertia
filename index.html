@@ -37,8 +37,7 @@
 
     <div class="desktop-navbar">
         <div class="desktop-navbar-section">
-            <a href="#"><img src="assets/Inertia_Logo.jpg" alt="Inertia Logo" id="desktop-mobile-logo"></a>
-
+            <a onmouseover="animateLogo()" onmouseout="removeLogoAnimation()" href="#" class="logo" id="logo">IN</a>
             <div id="desktop-menu">
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
@@ -63,7 +62,7 @@
     <div id="desktop-intro">
         <div class="desktop-intro-text">
             <p><span class="bigboi-text">Inertia,</span> building marketing <span class="desktop-colored-text">momentum</span></p>
-            <button id="desktop-contact-button">Get In Contact</button>
+            <button id="desktop-contact-button" onclick="window.location.href='contact.html'">Get In Touch</button>
         </div>
 
         <div class="desktop-intro-resizer">
@@ -220,7 +219,7 @@
         <div class="ready-content">
             <p class="ready-question">Ready to start gaining momentum?</p>
             <p class="ready-cta">Let's get in touch!</p>
-            <button class="ready-button">Get Started</button>
+            <button class="ready-button" onclick="window.location.href='contact.html'">Get Started</button>
         </div>
     </div>
 
@@ -228,7 +227,7 @@
         <div class="ready-content">
             <p class="ready-question">Ready to start gaining momentum?</p>
             <p class="ready-cta">Let's get in touch!</p>
-            <button class="ready-button">Get Started</button>
+            <button class="ready-button" onclick="window.location.href='contact.html'">Get Started</button>
         </div>
         <img src="assets/ContactUs.png" alt="Contact Us">
     </div>

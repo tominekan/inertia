@@ -37,3 +37,27 @@ function hideMenu() {
     let menu = document.getElementById("hamburger_menu");
     menu.src = "assets/HamburgerMenu.png"
 }
+
+//When you hover over the logo it animates out
+function animateLogo() {
+    var chars = ["A", "I", "T", "R", "E"]
+    let logo = document.getElementById("logo");
+    for (var i = 0; i < 5; i++) {
+        console.log("outside closure" + i);
+        //Create a closure to protect the value of i
+        (function(i){
+            window.setTimeout(function(){
+                logo.innerHTML = logo.innerHTML + chars[i];
+                console.log(logo.innerHTML);
+                console.log(i);
+            }, 200 - i*35);
+        
+          }(i));
+    }
+}
+
+//Undoes the animation when the user stops hovering over the logo
+function removeLogoAnimation() {
+    let logo = document.getElementById("logo");
+    logo.innerHTML = "IN";
+}
