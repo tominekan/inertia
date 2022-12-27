@@ -14,13 +14,15 @@
 .marketing-title {
     margin-bottom: 5vh;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--color-black);
 }
 
 .marketing-text {
     width: clamp(100px, 35vw, 450px);
     text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
 
 .marketing-content {
