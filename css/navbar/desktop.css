@@ -41,6 +41,7 @@
 #desktop-cta {
     width: 100px;
     height: 40px;
+    margin: 5px;
     color: white;
     font-family: "Inter", sans-serif !important;
     background-color: var(--color-green);
