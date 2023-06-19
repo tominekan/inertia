@@ -61,7 +61,7 @@
 }
 
 .desktop-colored-text {
-    background-image: linear-gradient(to right, var(--color-black), var(--color-green));
+    background-image: linear-gradient(var(--rotation), var(--color-black), var(--color-green));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

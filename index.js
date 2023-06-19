@@ -1,3 +1,4 @@
+var currentDegrees;
 let isOpen = false; // defaults to closed
 
 // Toggle Menu Open or Close
@@ -17,7 +18,7 @@ function showMenu() {
     document.body.style.overflow = "hidden";
     mobile_menu.style.visibility = "visible";
 
-    let mobile_image = document.getElementById("mobile-inertia-logo");
+    let mobile_image = document.getElementById("mobile-logo");
     mobile_image.style.visibility = "hidden";
 
     // Change Menu to Close Buttton
@@ -43,13 +44,10 @@ function animateLogo() {
     var chars = ["A", "I", "T", "R", "E"]
     let logo = document.getElementById("logo");
     for (var i = 0; i < 5; i++) {
-        console.log("outside closure" + i);
         //Create a closure to protect the value of i
         (function(i){
             window.setTimeout(function(){
                 logo.innerHTML = logo.innerHTML + chars[i];
-                console.log(logo.innerHTML);
-                console.log(i);
             }, 200 - i*35);
         
           }(i));
@@ -60,4 +58,32 @@ function animateLogo() {
 function removeLogoAnimation() {
     let logo = document.getElementById("logo");
     logo.innerHTML = "IN";
+}
+
+//Rotates the gradient that is behind the momentum word on the homepage
+function rotateGradient() {
+    var s = document.querySelector(':root');
+    var input = 90;
+    for (var i = 0; i < 360; i++) {
+        (function(i){
+            window.setTimeout(function(){
+                input++;
+                s.style.setProperty('--rotation', input + "deg");
+                currentDegrees = input;
+            }, 100 + i*10);
+          }(i));
+    }
+}
+
+function deRotateGradient() {
+    var s = document.querySelector(':root');
+    var input = currentDegrees - 90;
+    for (var i = 0; i < input; i++) {
+        (function(i){
+            window.setTimeout(function(){
+                currentDegrees--;
+                s.style.setProperty('--rotation', currentDegrees + "deg");
+            }, 50 + i*10);
+          }(i));
+    }
 }
