@@ -1,5 +1,18 @@
 @import url(../colors.css);
 
+.logo-mobile {
+    background-image: linear-gradient(to right, var(--color-black), var(--color-green));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-weight: 900;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    letter-spacing: 1px;
+}
+
 .mobile-navbar {
     position: sticky;
     top: 0px;
@@ -11,7 +24,6 @@
 }
 
 #mobile-inertia-logo {
-    margin-left: 10px;
     z-index: 42; /* Meaning of Life */
 }
 
