@@ -8,6 +8,7 @@
 }
 
 .mobile-intro-text p {
+    padding-top: 5vh;
     text-align: center;
     font-size: 3em;
     font-weight: 900;
@@ -18,7 +19,7 @@
     display: block;
     width: 75vw;
     height: max-content;
-    padding-bottom: 10vh;
+    padding-bottom: 3vh;
 }
 
 .mobile-image-resizer {

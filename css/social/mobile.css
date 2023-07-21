@@ -23,5 +23,6 @@
     margin-bottom: 10vh;
     color: var(--color-black);
     text-align: center;
+    line-height: 1.15em;
     width: 80vw;
 }
