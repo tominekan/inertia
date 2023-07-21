@@ -58,12 +58,15 @@ function animateLogo() {
 //Undoes the animation when the user stops hovering over the logo
 function removeLogoAnimation() {
     let logo = document.getElementById("logo");
-    (function(i){
-        window.setTimeout(function(){
-            logo.innerHTML = logo.innerHTML;
-        }, 200 - i*35);
-    
-      }(i));
+    for (var i = 0; i < 5; i++) {
+    //Create a closure to protect the value of i
+        (function(i){
+            window.setTimeout(function(){
+                logo.innerHTML = logo.innerHTML.substring(0, logo.innerHTML.length - 1);
+                console.log(logo.innerHTML);
+            }, 200 - i*35);
+        }(i));
+    }
     // logo.innerHTML = "IN";
 }
 
@@ -97,4 +100,4 @@ function deRotateGradient() {
 }
 /*Consider either applying to whole block of text
 or make the whole block/just "momentum" have a graident 
-that moves so it looks like its speeding up*/
+that moves left --> right so it looks like its speeding up*/

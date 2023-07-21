@@ -29,7 +29,7 @@
 .competitive-text {
     text-align: center;
     font-size: 1.3em;
-    line-height: 1.1em;
+    line-height: 1.15em;
     width: clamp(100px, 35vw, 450px);;
 }
 
