@@ -11,8 +11,7 @@ function toggleMenu() {
     }
 }
 
-// Show menu
-// Change Icon to X
+// Show menu and Change Icon to X
 function showMenu() {
     let mobile_menu = document.getElementById("mobile_menu");
     document.body.style.overflow = "hidden";
