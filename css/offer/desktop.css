@@ -114,6 +114,8 @@
     margin-left: 15px;
 }
 
+/* To prevent text resizing, put it in its own container 
+and then calculate the size of the window at rest so that the text does not change its size*/
 .offer-section-p {
     font-size: 1.3em;
     margin-top: 20px;
